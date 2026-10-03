@@ -1,0 +1,41 @@
+body {
+    margin: 20px;
+}
+
+.avatr {
+    width: 150px;
+    height: 150px;
+
+}
+
+.card {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px;
+    background: #ffc8dd;
+    font-family: Times, Georgia, serif;
+    border: 5px solid #cdb4db;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #bde0fe;
+    animation-name: my-animation;
+    animation-duration: 3s;
+
+}
+
+@keyframes my-animation {
+    from {
+        background-color: #ffc8dd;
+    }
+
+    to {
+        background-color: #a2d2ff;
+    }
+}
+
+.card:hover {
+    background: #ffe5ec;
+}
